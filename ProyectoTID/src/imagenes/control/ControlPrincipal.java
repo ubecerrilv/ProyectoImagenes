@@ -34,10 +34,9 @@ public class ControlPrincipal extends ControlAbs{
 	public Data ejecutaComando(String c, Data d, Data d2) {
 		switch(c) {
 		case Comandos.INICIA:
-			vent.setLocationRelativeTo(null);
-			
+			vent.setBounds(1080, 1920, 0, 0);
+			vent.setLocationRelativeTo(null);			
 			vent.setVisible(true);
-			
 		break;	
 		}
 		return null;	
